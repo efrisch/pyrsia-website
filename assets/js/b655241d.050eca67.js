@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia_website=self.webpackChunkpyrsia_website||[]).push([[165],{1941:function(s){s.exports=JSON.parse('{"allTagsPath":"/pyrsia-website/blog/tags","slug":"/pyrsia-website/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/pyrsia-website/blog/tags/docusaurus"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpyrsia_website=self.webpackChunkpyrsia_website||[]).push([[982],{5925:function(s){s.exports=JSON.parse('{"allTagsPath":"/pyrsia-website/blog/tags","slug":"/pyrsia-website/blog/tags/hola","name":"hola","count":1,"permalink":"/pyrsia-website/blog/tags/hola"}')}}]);

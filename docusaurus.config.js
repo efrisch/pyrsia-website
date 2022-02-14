@@ -9,12 +9,13 @@ const config = {
   title: 'Pyrsia',
   tagline: 'Zero-Trust Decentralized Package Network',
   url: 'https://pyrsia.io',
-  baseUrl: '/',
+  baseUrl: '/pyrsia-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon-32x32.png',
-  organizationName: 'pyrsia', // Usually your GitHub org/user name.
-  projectName: 'pyrsia', // Usually your repo name.
+  organizationName: 'prince-chrismc', // Usually your GitHub org/user name.
+  projectName: 'pyrsia-website', // Usually your repo name.
+  trailingSlash: true, // Best for GitHub Pages
 
   presets: [
     [
@@ -24,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/pyrsia/pyrsia/tree/main/docs/',
+          editUrl: 'https://github.com/prince-chrismc/pyrsia-website/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/pyrsia/pyrsia.github.io/tree/main/blogs/',
+            'https://github.com/prince-chrismc/pyrsia-website/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

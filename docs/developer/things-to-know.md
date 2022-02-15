@@ -10,7 +10,7 @@ If your organization would like to become a contributing organization, please ha
 
 ## Read the Code of Conduct
 
-Just as all open source communities, Pyrsia has a 'Code of Conduct'. Please make sure to read and observe the [Code of Conduct and Community Values](https://github.com/pyrsia/.github/blob/main/code-of-conduct.md).
+Just like all open source communities, Pyrsia has a 'Code of Conduct'. Please make sure to read and observe the [Code of Conduct and Community Values](https://github.com/pyrsia/.github/blob/main/code-of-conduct.md).
 
 ## Register to the Google Groups and Join Slack
 
@@ -27,7 +27,7 @@ Pyrsia is a community project. Consequently, it is wholly dependent on its commu
 Adopting Pyrsia, finding bugs, opening tickets, helping others, creating blogs, and providing feedback are the main tasks of User Contributors. Users Contributors are the heartbeat of the Pyrsia Community.  Your involvement at this level drives the Pyrsia road map.
 
 - **Member Contributors:**
-Working on support tickets is one of the main jobs of the Member Contributor. Member Contributors want to contribute further to the project and will assign themselves support tickets and begin to review pull request. In addition, sharing use cases, providing feedback for potential feature enhancements, and social networking about Pyrsia are a few ways the Member Contributor can participate.  Member Contributors are an important group of individuals as they are the most influential group of contributors. Member Contributors should plan on attending the General Community Meetings monthly to keep up to date with the progress of Pyrsia.
+Working on support tickets is one of the main jobs of the Member Contributor. Member Contributors want to contribute further to the project and will assign themselves support tickets and begin to review pull requests. In addition, sharing use cases, providing feedback for potential feature enhancements, and social networking about Pyrsia are a few ways the Member Contributor can participate.  Member Contributors are an important group of individuals as they are the most influential group of contributors. Member Contributors should plan on attending the General Community Meetings monthly to keep up to date with the progress of Pyrsia.
 
 - **Maintainer Contributors:**
 Reviewing the Member Contributor pull request, attending meetings on a monthly to bi-monthly basis, stepping up to help with working group tasks, and fixing issues best describe the activities that can qualify you as Reviewer Contributor. Reviewer Contributors complete a large part of the work that needs to be done to keep the Pyrsia project relevant to the broader IT community. Your participation at this level is key to the success of the project. Approvers Contributors are individuals that have developed a level of expertise and provide a final approval of pull request.  In addition they develop product enhancements, create documentation, develop on-line videos and tutorial content.

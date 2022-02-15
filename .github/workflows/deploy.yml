@@ -11,6 +11,17 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: pyrsia/.github
+      - name: set custom edit URLs
+        shell: python
+        run: |
+          import os
+          for file in os.listdir('.'):
+            if file.endswith('.md'):
+              new_line = '---\ncustom_edit_url: https://github.com/pyrsia/.github/edit/main/{}\n---\n\n'.format(file)
+              with open(file, 'r+') as file:
+                content = file.read()
+                file.seek(0)
+                file.write(new_line + content)
       - uses: actions/upload-artifact@v2
         with:
           name: health-files

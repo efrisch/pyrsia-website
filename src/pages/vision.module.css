@@ -5,3 +5,16 @@
 .flexBox {
   display: flexbox;
 }
+
+.svgDark {
+  padding: 1rem;
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.alignVertical {
+  margin: auto;
+}
+
+.primaryColor{
+  color: var(--ifm-color-primary);
+}

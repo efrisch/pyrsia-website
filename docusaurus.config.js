@@ -80,7 +80,6 @@ const config = {
         links: [
           {
             title: 'Docs',
-            to: '/docs/',
             items: [
               {
                 label: 'Tutorial',
@@ -90,7 +89,6 @@ const config = {
           },
           {
             title: 'Community',
-            to: '/social/',
             items: [
               {
                 label: 'Google',

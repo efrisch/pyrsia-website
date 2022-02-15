@@ -80,6 +80,7 @@ const config = {
         links: [
           {
             title: 'Docs',
+            to: '/docs/',
             items: [
               {
                 label: 'Tutorial',
@@ -89,6 +90,7 @@ const config = {
           },
           {
             title: 'Community',
+            to: '/social/',
             items: [
               {
                 label: 'Google',
@@ -101,6 +103,10 @@ const config = {
               {
                 label: 'OpenSSF Slack',
                 href: 'https://openssf.slack.com/archives/C0302CVKPA5',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UClPQKloIElvJk7EdSST3W5g',
               },
             ],
           },
@@ -122,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/pyrsia/pyrsia',
+                href: 'https://github.com/pyrsia',
               },
               {
                 label: 'Stack Overflow',

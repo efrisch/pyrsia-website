@@ -147,6 +147,26 @@ export default function Overview(): JSX.Element {
 
         <div className={clsx('row text--center padding-vert--md')}>
           <div className={clsx('col col--12 padding-bottom--md')}>
+            <h2>Composable elements</h2>
+            <ul>
+              <li>
+                Single application services provides a universal API for seamless integration options
+              </li>
+              <li>
+                Accompanying command line interface provides easy access of all the key functions of the services 
+              </li>
+              <li>
+                Targeting developers system with the flexibility to be deployed anywhere, even the cloud
+              </li>
+              <li>
+                Simplified network topology for how node connects. Reducing complexity for a more deterministic outcome.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className={clsx('row text--center padding-vert--md')}>
+          <div className={clsx('col col--12 padding-bottom--md')}>
             <h2>Where we are starting versus what the end goal is.</h2>
           </div>
         </div>
@@ -188,6 +208,16 @@ export default function Overview(): JSX.Element {
           <div className={clsx('col col--4')}></div>
           <div className={clsx('col col--4')}>
             <p>Truly decentralized network</p>
+          </div>
+        </div>
+
+        <div className={clsx('row text--center')}>
+          <div className={clsx('col col--4')}>
+            <p>Fully qualified artifact references</p>
+          </div>
+          <div className={clsx('col col--4')}></div>
+          <div className={clsx('col col--4')}>
+            <p>Native support for all workflows</p>
           </div>
         </div>
       </div >

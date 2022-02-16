@@ -144,6 +144,9 @@ export default function Overview(): JSX.Element {
         </div>
 
         <div className='row'>
+          <div className={clsx('col col--12  text--center padding-bottom--md')}>
+            <h2>Developer workflow</h2>
+          </div>
           <div className={clsx('col col--4 padding-vert--md')}>
             <h3>Simple installations</h3>
             <p>

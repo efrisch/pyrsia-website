@@ -29,6 +29,9 @@ export default function Overview(): JSX.Element {
               the question <i>"Who build this package?"</i>. Know where it was a CI/CD pipeline from the author
               of the code or a third party build service.
             </p>
+            <p>
+              What does Pyrsia address in <Link href='https://slsa.dev/spec/v0.1/index'>SLSA</Link>'s treat landspace? Firm the "dependencies"
+              section. The only way to obtaining confidence is to have detailed trancerpent information across the supply chain.
           </div>
         </div>
 

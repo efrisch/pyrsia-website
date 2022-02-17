@@ -36,6 +36,16 @@ export default function Overview(): JSX.Element {
         </div>
 
         <div className='row padding-vert--md'>
+          <div className={clsx('col col--12 padding-vert--md')}>
+            <h3>What Pyrsia sets out to provided</h3>
+            <ul>
+              <li>Confident Providence of the package (e.g. Signed commit, Build log attestations, Non-repudiation of publisher)</li>
+              <li>Immutable Histroy (e.g. transperency log of every package in it's original state)</li>
+              <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
+            </ul>
+        </div>
+          
+        <div className='row padding-vert--md'>
           <div className={clsx('col col--4 padding-vert--md')}>
             <h3>The problem with open source security</h3>
             <p>

@@ -44,6 +44,7 @@ export default function Overview(): JSX.Element {
               <li>Immutable Histroy (e.g. transperency log of every package in it's original state)</li>
               <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
             </ul>
+          </div>
         </div>
 
         <div className='row padding-vert--md'>

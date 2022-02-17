@@ -32,6 +32,7 @@ export default function Overview(): JSX.Element {
             <p>
               What does Pyrsia address in <Link href='https://slsa.dev/spec/v0.1/index'>SLSA</Link>'s treat landspace? Firm the "dependencies"
               section. The only way to obtaining confidence is to have detailed trancerpent information across the supply chain.
+            </p>
           </div>
         </div>
 

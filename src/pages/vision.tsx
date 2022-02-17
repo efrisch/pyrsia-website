@@ -44,6 +44,16 @@ export default function Overview(): JSX.Element {
               <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
             </ul>
         </div>
+
+        <div className='row padding-vert--md'>
+          <div className={clsx('col col--12 padding-vert--md')}>
+            <h3>What not given by the network</h3>
+            <ul>
+              <li>Code Quality (e.g Human error, bugs, security vulnerabilities)</li>
+              <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
+              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
+            </ul>
+        </div>
           
         <div className='row padding-vert--md'>
           <div className={clsx('col col--4 padding-vert--md')}>

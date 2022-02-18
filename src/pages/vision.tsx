@@ -85,7 +85,7 @@ export default function Overview(): JSX.Element {
                 </p>
                 <p>
                   Examples which are available are the Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, 
-                  <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>, or <Link href="buildinfo.org">Build Info</Link>
+                  <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>, or <Link href="https://buildinfo.org">Build Info</Link>
                 </p>
               </li>
             </ul>

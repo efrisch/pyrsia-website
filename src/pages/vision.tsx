@@ -51,16 +51,17 @@ export default function Overview(): JSX.Element {
             <h3>What Pyrsia sets out to provided</h3>
             <ul>
               <li>Confident Providence of the package (e.g. Signed commit, Build log attestations, Non-repudiation of publisher)</li>
-              <li>Immutable History (e.g. transparency log of every package in it's original state)</li>
-              <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
+              <li>Immutable History (e.g. transparency log of every package in it's original state and it's metadata as it changes over time)</li>
+              <li>Secure and Efficient Distribution (e.g. verifiable integrity of the package and it's source)</li>
+              <li>Fault tolerance - Distrusted network storages means </li>
             </ul>
           </div>
           <div className={clsx('col col--12')}>
-            <h3>What not given by the network</h3>
+            <h3>What judgement not casted by the Pyrsia Network (confusion)</h3>
             <ul>
-              <li>Code Quality (e.g Human error, bugs, security vulnerabilities)</li>
+              <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities -- may be information)</li>
               <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
-              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
+              {/* <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li> */}
             </ul>
           </div>
         </div>
@@ -84,7 +85,8 @@ export default function Overview(): JSX.Element {
                   already relying on to secure your supply chain.
                 </p>
                 <p>
-                  Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link> or <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link> (Backed by a JFrog Company)
+                  Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>
+                  or <Link href="buildinfo.org">Build Info</Link>
                 </p>
               </li>
             </ul>
@@ -105,6 +107,8 @@ export default function Overview(): JSX.Element {
               Build on standard like <Link href="https://www.sigstore.dev/">Sigstore's</Link> <Link href="https://github.com/sigstore/cosign">Cosign</Link> to
               <Link href="https://docs.npmjs.com/about-pgp-signatures-for-packages-in-the-public-registry">NPM Packages Signing</Link> allows
               developers to rapidly add their containers to pyrsia network along side their favorite container registries.
+
+              <Link href="https://github.com/notaryproject/notaryproject">Notary V2</Link>
             </p>
           </div>
           <div className={clsx('col col--4')}>

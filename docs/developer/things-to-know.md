@@ -18,7 +18,6 @@ Read the community meeting notes, watch meeting recordings and join the Pyrsia S
 - [Google Groups](https://groups.google.com/g/pyrsia)
 - [Join Slack](https://openssf.slack.com/archives/C02RC7Y5EUV)
 
-
 ## Learn the Community Expectations and Roles
 
 Pyrsia is a community project. Consequently, it is wholly dependent on its community to provide a productive, friendly and collaborative environment.  Our contributors fit into 3 basic categories: Casual, Regular and Core.

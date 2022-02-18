@@ -12,7 +12,8 @@ export default function Overview(): JSX.Element {
       <div className="container">
 
         <div className="row padding-vert--md">
-          <div className={clsx('col col--6')}>
+          <div className={clsx('col col--1')}></div>
+          <div className={clsx('col col--7')}>
             <h1 className='padding-top--xl padding-bottom--md'>
               Pyrsia sets out to be the <span className={styles.primaryColor}>torch</span> that <span className={styles.primaryColor}>lights</span> up
               the open-source supply chain.</h1>

@@ -17,9 +17,6 @@ export default function Overview(): JSX.Element {
               Pyrsia sets out to be the <span className={styles.primaryColor}>torch</span> that <span className={styles.primaryColor}>lights</span> up
               the open-source supply chain.</h1>
           </div>
-          <div className={clsx('col col--6')}>
-            <img className='padding-top--xl padding-bottom--md' width="100%" src="https://via.placeholder.com/650x150/70130e/ffffff?text=Animated+Graphic" alt="Fancy Banner" />
-          </div>
         </div>
 
         <div className='row'>

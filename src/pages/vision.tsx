@@ -61,7 +61,7 @@ export default function Overview(): JSX.Element {
             <ul>
               <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities -- may be information)</li>
               <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
-              {/* <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li> */}
+              <li>(might cut) Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
             </ul>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function Overview(): JSX.Element {
               <Link href="https://docs.npmjs.com/about-pgp-signatures-for-packages-in-the-public-registry">NPM Packages Signing</Link> allows
               developers to rapidly add their containers to pyrsia network along side their favorite container registries.
 
-              <Link href="https://github.com/notaryproject/notaryproject">Notary V2</Link>
+              <Link href="https://github.com/notaryproject/notation">Notary V2</Link>
             </p>
           </div>
           <div className={clsx('col col--4')}>

@@ -57,11 +57,11 @@ export default function Overview(): JSX.Element {
             </ul>
           </div>
           <div className={clsx('col col--12')}>
-            <h3>What judgement not casted by the Pyrsia Network (confusion)</h3>
+            <h3>Assertions <b>not</b> made by Pyrsia Network -- Limited facts are know (confusing session needs more work)</h3>
             <ul>
               <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities -- may be information)</li>
               <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
-              <li>(might cut) Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
+              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
             </ul>
           </div>
         </div>
@@ -81,12 +81,11 @@ export default function Overview(): JSX.Element {
               <li>
                 built on open standards for the open source community.
                 <p>
-                  Leverage and integrate with the technologies you are
-                  already relying on to secure your supply chain.
+                  Leverage and integrate with the technologies you are already relying on to secure your supply chain.
                 </p>
                 <p>
-                  Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>
-                  or <Link href="buildinfo.org">Build Info</Link>
+                  Examples which are available are the Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, 
+                  <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>, or <Link href="buildinfo.org">Build Info</Link>
                 </p>
               </li>
             </ul>

@@ -59,7 +59,7 @@ export default function Overview(): JSX.Element {
           <div className={clsx('col col--12')}>
             <h3>Assertions <b>not</b> made by Pyrsia Network -- Limited facts are know (confusing session needs more work)</h3>
             <ul>
-              <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities -- may be information)</li>
+              <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities)</li>
               <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
               <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
             </ul>
@@ -85,7 +85,7 @@ export default function Overview(): JSX.Element {
                 </p>
                 <p>
                   Examples which are available are the Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, 
-                  <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link>, or <Link href="https://buildinfo.org">Build Info</Link>
+                  <Link href="https://cyclonedx.org/"> OWASP CycloneDX</Link>, or <Link href="https://buildinfo.org">Build Info</Link>
                 </p>
               </li>
             </ul>

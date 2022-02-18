@@ -4,6 +4,7 @@ import styles from './vision.module.css';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Admonition from '@theme/Admonition';
 
 export default function Overview(): JSX.Element {
   return (
@@ -22,43 +23,6 @@ export default function Overview(): JSX.Element {
         </div>
 
         <div className='row'>
-          <div className={clsx('col col--12')}>
-            <p>
-              What developers lack is a clear line of sight between what they download and where it came from.
-              Tags are mutable leaving an open question and to which revision of source code to look at. Answer
-              the question <i>"Who build this package?"</i>. Know where it was a CI/CD pipeline from the author
-              of the code or a third party build service.
-            </p>
-            <p>
-              What does Pyrsia address in <Link href='https://slsa.dev/spec/v0.1/index'>SLSA</Link>'s treat landspace? Firm the "dependencies"
-              section. The only way to obtaining confidence is to have detailed trancerpent information across the supply chain.
-            </p>
-          </div>
-        </div>
-
-        <div className='row padding-vert--md'>
-          <div className={clsx('col col--12 padding-vert--md')}>
-            <h3>What Pyrsia sets out to provided</h3>
-            <ul>
-              <li>Confident Providence of the package (e.g. Signed commit, Build log attestations, Non-repudiation of publisher)</li>
-              <li>Immutable Histroy (e.g. transperency log of every package in it's original state)</li>
-              <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className='row padding-vert--md'>
-          <div className={clsx('col col--12 padding-vert--md')}>
-            <h3>What not given by the network</h3>
-            <ul>
-              <li>Code Quality (e.g Human error, bugs, security vulnerabilities)</li>
-              <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
-              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
-            </ul>
-          </div>
-        </div>
-          
-        <div className='row padding-vert--md'>
           <div className={clsx('col col--4 padding-vert--md')}>
             <h3>The problem with open source security</h3>
             <p>
@@ -71,20 +35,40 @@ export default function Overview(): JSX.Element {
           <div className={clsx('col col--8')}>
             <img className={styles.svgDark} width="100%" src="https://www.sigstore.dev/img/problemwithopensource_update.svg" alt="Fancy Banner" />
           </div>
+
+          <div className={clsx('col col--12 padding-top--md')}>
+            <Admonition type="note" icon="💡" title="Where does Pyrsia fit in...">
+              <p>
+                What does Pyrsia address in <Link href='https://slsa.dev/spec/v0.1/index'>SLSA</Link>'s treat landscape?
+              </p>
+              <p>
+                Firmly the "dependencies" section. The only way to obtaining confidence is to have detailed transparent information across the supply chain.
+              </p>
+            </Admonition>
+          </div>
+        </div>
+
+        <div className='row padding-vert--md'>
+          <div className={clsx('col col--12')}>
+            <h3>What Pyrsia sets out to provided</h3>
+            <ul>
+              <li>Confident Providence of the package (e.g. Signed commit, Build log attestations, Non-repudiation of publisher)</li>
+              <li>Immutable History (e.g. transparency log of every package in it's original state)</li>
+              <li>Secure Distribution (e.g. verifiable integrity of the package and it's source)</li>
+            </ul>
+          </div>
+          <div className={clsx('col col--12')}>
+            <h3>What not given by the network</h3>
+            <ul>
+              <li>Code Quality (e.g Human error, bugs, security vulnerabilities)</li>
+              <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
+              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
+            </ul>
+          </div>
         </div>
 
         <div className='row'>
           <div className={clsx('col col--12')}>
-            <p>
-              Built on open standards for the open source community. Leverage and integrate with the technologies you are
-              already relying on to secure your supply chain.
-            </p>
-            <p>
-              <Link href="https://spdx.dev/">Linux Foundation's SPDX</Link>
-            </p>
-            <p>
-              <Link href="https://cyclonedx.org/">OWASP CycloneDX (Backed by a JFrog Company)</Link>
-            </p>
             <h3>
               Guiding Principles
             </h3>
@@ -96,7 +80,14 @@ export default function Overview(): JSX.Element {
                 focuses on collecting and communicating facts; and provides a framework to make assertions about those facts.
               </li>
               <li>
-                makes no legal interpretations (of trust worthiness).
+                built on open standards for the open source community.
+                <p>
+                  Leverage and integrate with the technologies you are
+                  already relying on to secure your supply chain.
+                </p>
+                <p>
+                Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link> or <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link> (Backed by a JFrog Company)
+                </p>
               </li>
             </ul>
             <p>
@@ -148,7 +139,7 @@ export default function Overview(): JSX.Element {
         </div>
 
         <div className={clsx('row padding-vert--md')}>
-          <div className={clsx('col col--12  text--center padding-bottom--md')}>
+          <div className={clsx('col col--12')}>
             <h2>Composable elements</h2>
           </div>
           <div className={clsx('col col--12 padding-bottom--md')}>
@@ -157,7 +148,7 @@ export default function Overview(): JSX.Element {
                 Single application services provides a universal API for seamless integration options
               </li>
               <li>
-                Accompanying command line interface provides easy access of all the key functions of the services 
+                Accompanying command line interface provides easy access of all the key functions of the services
               </li>
               <li>
                 Targeting developers system with the flexibility to be deployed anywhere, even the cloud
@@ -169,7 +160,23 @@ export default function Overview(): JSX.Element {
           </div>
         </div>
 
-        <div className='row'>
+
+        <div className={clsx('row padding-vert--md')}>
+          <div className={clsx('col col--12')}>
+            <h3>Key Concepts</h3>
+            <p><b>Packages</b>: are specific file(s) are consumed by developers to build their software</p>
+            <p><b>Central Repositories</b>: are the established publicly available hosts of packages</p>
+            <hr />
+            <p><b>Artifacts</b>: are the abstraction of specific packages types (e.g Docker or Conan) which are loosely binary blobs</p>
+            <p><b>Nodes</b>: are the software that connects system together. They provide local access to package managers. Allow the local system to
+              participate in the network seeding packages.</p>
+            <p>There are to class of nodes "authoritative", which represent reputable partners allowed to publish packages; "seeds" which download and share
+              artifacts acting as distrusted storage</p>
+            <p><b>Network</b>: references to the whole interconnect system of nodes and the various mechanism they use to communicate with one another</p>
+          </div>
+        </div>
+
+        <div className={clsx('row padding-vert--md')}>
           <div className={clsx('col col--12  text--center padding-bottom--md')}>
             <h2>Developer workflow</h2>
           </div>

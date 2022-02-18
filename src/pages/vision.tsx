@@ -83,7 +83,7 @@ export default function Overview(): JSX.Element {
                   already relying on to secure your supply chain.
                 </p>
                 <p>
-                Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link> or <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link> (Backed by a JFrog Company)
+                  Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link> or <Link href="https://cyclonedx.org/">OWASP CycloneDX</Link> (Backed by a JFrog Company)
                 </p>
               </li>
             </ul>
@@ -98,16 +98,18 @@ export default function Overview(): JSX.Element {
             <h2>Gain confidence by having transparency on the <u>source</u> of the packages you need</h2>
           </div>
           <div className={clsx('col col--4')}>
-            <h3>Entity</h3>
-            <p>Attestations proved non-repudiation so developers know exactly who built and published the artifact.
+            <h3>Actors and Entities</h3>
+            <p>Attestations proved non-repudiation so developers know exactly who wrote the code, how it was built and how the artifact was published.
 
-              Build on standard like <Link href="https://www.sigstore.dev/">Sigstore's</Link> <Link href="https://github.com/sigstore/cosign">Cosign</Link> allows
+              Build on standard like <Link href="https://www.sigstore.dev/">Sigstore's</Link> <Link href="https://github.com/sigstore/cosign">Cosign</Link> to
+              <Link href="https://docs.npmjs.com/about-pgp-signatures-for-packages-in-the-public-registry">NPM Packages Signing</Link> allows
               developers to rapidly add their containers to pyrsia network along side their favorite container registries.
             </p>
           </div>
           <div className={clsx('col col--4')}>
             <h3>Source Revision</h3>
-            <p>Open interoperable stands help to pit down the exact commit where the source code originates from.
+            <p>Open interoperable standards such as <Link href="https://www.linuxjournal.com/content/signing-git-commits"> Git Commit Signatures </Link>
+              help to pin down the exact commit where the source code originates from.
               Know the author and commit who wrote the code. Know who built and published the code from their secured environment.</p>
           </div>
           <div className={clsx('col col--4')}>
@@ -122,7 +124,8 @@ export default function Overview(): JSX.Element {
             <h3>Distributed Network</h3>
             <p>
               Each node connects through relays to discover each other. When a node download a package that's requested by it's peer
-              it's cached and pulled locally when another node looks for the same package.
+              it's cached and seeding the network when another node looks for the same package. This provides a robust and highly available
+              package ecosystem not limited by a central repository.
             </p>
           </div>
           <div className={clsx('col col--4')}>
@@ -132,6 +135,21 @@ export default function Overview(): JSX.Element {
               These image will be available to everyone. Participates of the OpenSSF will all the have chance to volunteer
               their resources to help establish the <i>first distributed network</i>, but we are most excited for the future!
             </p>
+          </div>
+        </div>
+
+        <div className={clsx('row padding-vert--md')}>
+          <div className={clsx('col col--12')}>
+            <h3>Key Concepts</h3>
+            <p><b>Packages</b>: are specific file(s) are consumed by developers to build their software</p>
+            <p><b>Central Repositories</b>: are the established publicly available hosts of packages</p>
+            <hr />
+            <p><b>Artifacts</b>: are the abstraction of specific packages types (e.g Docker or Conan) which are loosely binary blobs</p>
+            <p><b>Nodes</b>: are the software that connects system together. They provide local access to package managers. Allow the local system to
+              participate in the network seeding packages.</p>
+            <p>There are to class of nodes "authoritative", which represent reputable partners allowed to publish packages; "seeds" which download and share
+              artifacts acting as distrusted storage</p>
+            <p><b>Network</b>: references to the whole interconnect system of nodes and the various mechanism they use to communicate with one another</p>
           </div>
         </div>
 
@@ -154,22 +172,6 @@ export default function Overview(): JSX.Element {
                 Simplified network topology for how node connects. Reducing complexity for a more deterministic outcome.
               </li>
             </ul>
-          </div>
-        </div>
-
-
-        <div className={clsx('row padding-vert--md')}>
-          <div className={clsx('col col--12')}>
-            <h3>Key Concepts</h3>
-            <p><b>Packages</b>: are specific file(s) are consumed by developers to build their software</p>
-            <p><b>Central Repositories</b>: are the established publicly available hosts of packages</p>
-            <hr />
-            <p><b>Artifacts</b>: are the abstraction of specific packages types (e.g Docker or Conan) which are loosely binary blobs</p>
-            <p><b>Nodes</b>: are the software that connects system together. They provide local access to package managers. Allow the local system to
-              participate in the network seeding packages.</p>
-            <p>There are to class of nodes "authoritative", which represent reputable partners allowed to publish packages; "seeds" which download and share
-              artifacts acting as distrusted storage</p>
-            <p><b>Network</b>: references to the whole interconnect system of nodes and the various mechanism they use to communicate with one another</p>
           </div>
         </div>
 

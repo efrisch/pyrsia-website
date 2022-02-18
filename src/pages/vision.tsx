@@ -55,6 +55,7 @@ export default function Overview(): JSX.Element {
               <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
               <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
             </ul>
+          </div>
         </div>
           
         <div className='row padding-vert--md'>
@@ -250,7 +251,7 @@ export default function Overview(): JSX.Element {
             <p>Native support for all workflows</p>
           </div>
         </div>
-      </div >
+      </div>
     </Layout >
   )
 

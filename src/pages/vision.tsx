@@ -56,14 +56,6 @@ export default function Overview(): JSX.Element {
               <li>Fault tolerance - Distrusted network storages means </li>
             </ul>
           </div>
-          <div className={clsx('col col--12')}>
-            <h3>Assertions <b>not</b> made by Pyrsia Network -- Limited facts are know (confusing session needs more work)</h3>
-            <ul>
-              <li>Code Quality (absence of e.g Human error, bugs, security vulnerabilities)</li>
-              <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
-              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
-            </ul>
-          </div>
         </div>
 
         <div className='row'>
@@ -72,26 +64,21 @@ export default function Overview(): JSX.Element {
               Guiding Principles
             </h3>
             <ul>
-              <li>
-                represents data in formats that are both machine- and human-readable.
-              </li>
-              <li>
-                focuses on collecting and communicating facts; and provides a framework to make assertions about those facts.
-              </li>
-              <li>
-                built on open standards for the open source community.
-                <p>
-                  Leverage and integrate with the technologies you are already relying on to secure your supply chain.
-                </p>
-                <p>
-                  Examples which are available are the Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>, 
-                  <Link href="https://cyclonedx.org/"> OWASP CycloneDX</Link>, or <Link href="https://buildinfo.org">Build Info</Link>
-                </p>
-              </li>
+              <li>Represents data in formats that are both machine- and human-readable.</li>
+              <li>/built on open standards for the open source community.</li>
+              <li>Focuses on collecting and communicating facts; and provides a framework to make assertions about those facts.</li>
             </ul>
             <p>
               <i>Stolen from SPDX's site</i>
             </p>
+          </div>
+          <div className={clsx('col col--12')}>
+            <h4>Examples the assertion the Pyrsia Network does not demonstrate</h4>
+            <ul>
+              <li>Quality of Code (absence of e.g Human error, bugs, security vulnerabilities)</li>
+              <li>Trust Worthiness of the Source (e.g qualification of the actor)</li>
+              <li>Completeness of Dependencies (e.g missing or incorrect information about packages within or used to build the artifact)</li>
+            </ul>
           </div>
         </div>
 
@@ -102,12 +89,10 @@ export default function Overview(): JSX.Element {
           <div className={clsx('col col--4')}>
             <h3>Actors and Entities</h3>
             <p>Attestations proved non-repudiation so developers know exactly who wrote the code, how it was built and how the artifact was published.
-
               Build on standard like <Link href="https://www.sigstore.dev/">Sigstore's</Link> <Link href="https://github.com/sigstore/cosign">Cosign</Link> to
-              <Link href="https://docs.npmjs.com/about-pgp-signatures-for-packages-in-the-public-registry">NPM Packages Signing</Link> allows
-              developers to rapidly add their containers to pyrsia network along side their favorite container registries.
-
-              <Link href="https://github.com/notaryproject/notation">Notary V2</Link>
+              <Link href="https://docs.npmjs.com/about-pgp-signatures-for-packages-in-the-public-registry"> NPM Packages Signing</Link> allows
+              developers to rapidly add their containers to pyrsia network along side their favorite container registries. Other notable
+              efforts include <Link href="https://github.com/notaryproject/notation">Notary V2</Link>.
             </p>
           </div>
           <div className={clsx('col col--4')}>
@@ -117,13 +102,19 @@ export default function Overview(): JSX.Element {
               Know the author and commit who wrote the code. Know who built and published the code from their secured environment.</p>
           </div>
           <div className={clsx('col col--4')}>
+            <h3>Artifact Descriptions</h3>
+            <p>Open interoperable standards such as the Linux Foundation's <Link href="https://spdx.dev/">SPDX</Link>,
+              <Link href="https://cyclonedx.org/"> OWASP CycloneDX</Link>, or <Link href="https://buildinfo.org">Build Info</Link>
+              as used to collect facts and communicate facts about packages. Leverage and integrate with the technologies you are 
+              already relying on to secure your supply chain.</p>
+          </div>
+          <div className={clsx('col col--4')}>
             <h3>Immutable Ledger</h3>
             <p>
               Every package ever published forever record in an unchanging ledger persists the consistent reproducible data pointing
               to a uniquely identifiable artifact that can always be available in the network.
             </p>
           </div>
-          <div className={clsx('col col--2')}></div>
           <div className={clsx('col col--4')}>
             <h3>Distributed Network</h3>
             <p>

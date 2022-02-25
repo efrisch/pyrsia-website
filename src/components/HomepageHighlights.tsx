@@ -18,7 +18,7 @@ const HighlightList: HighightItem[] = [
         description: (
             <>
                 <p>
-                    Pyrsia aims to seamlessly integrate with the package mangers developers are already using.
+                    Pyrsia aims to seamlessly integrate with the package managers developers are already using.
                     The day to day impact should be minimal with the default configuration. Advance workflows can easily be enabled.
                 </p>
                 <Link to="/docs">Read More...</Link>
@@ -57,7 +57,7 @@ const HighlightList: HighightItem[] = [
         description: (
             <>
                 <p>
-                    Developers are often forced to make tradeoffs between compatibility, security, and efficiency to interact with central repositories.
+                    Developers are often forced to make trade-offs between compatibility, security, and efficiency to interact with central repositories.
                     This has led to the creation of bridges, proxies, and other proprietary solutions, all with their own limitations.
                 </p>
                 <p>

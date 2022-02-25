@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Signatures provide non-repudiation allowing developers to know the exact source of the packages they
+        Strong cryptographically secure signatures prove authenticity and provide non-repudiation. Allowing developers to know the exact source of the packages they
         need and rely on.
       </>
     ),
@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Planned support for all the repositories developers need (e.g Docker, Conan, Go).
+        Planned support for all of the repositories developers need (e.g Docker, Conan, Go). Trustworthy, verifiable and reproducible builds. Every time.
       </>
     ),
   },
@@ -35,8 +35,8 @@ const FeatureList: FeatureItem[] = [
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
-        We care about improving the security posture of open source projects and their supply chains
-        that are critical to the global development of software.
+        We care about improving the security posture of open source projects and their supply chains.
+        A secure supply chain is critical for the continued growth of software development globally.
       </>
     ),
   },
@@ -89,9 +89,9 @@ export default function HomepageFeatures(): JSX.Element {
               <h2>The team behind Pyrsia</h2>
               <img width="100%" src="https://via.placeholder.com/650x150/70130e/ffffff?text=Team+Group+Photo" alt="Fancy Banner" />
               <p>
-              Pyrsia is driven by leading companies in the software industry. As a prospective project of the OpenSSF we are building on decades of
-              experience developing, deploying and securing code pipelines. With companies like JFrog supporting this project, we are leveraging our 
-              knowledge of package management, integration with central repositories, and the requirements of building with open-source communities.
+                Pyrsia is a collaboration of leading companies in the software industry. As a prospective project of the OpenSSF we are building on decades of
+                experience developing, deploying and securing code pipelines. With companies like JFrog supporting this project, we are leveraging our
+                knowledge of package management, integration with central repositories, and the requirements of building with open-source communities.
               </p>
               <a href="Learn more about the OpenSSF"></a>
             </div>
@@ -102,19 +102,19 @@ export default function HomepageFeatures(): JSX.Element {
             <div className={clsx('col col--10 ')}>
               <h2 className={clsx('text--center')}>Why Pyrsia?</h2>
               <p>
-                The open-source supply chain has become a critical element to every technology, from the operating system and browser you are using
-                to the applications and services which we depended on to run our lives. Innovation
-                like <a href="https://mars.nasa.gov/news/8982/meet-the-open-source-software-powering-nasas-ingenuity-mars-helicopter/">NASA Mars Rovers</a> might
+                The open-source supply chain has become a critical element in nearly every technology, from the operating system and browser you are using
+                to the applications and services we depend on to run our lives. Innovations
+                like the <a href="https://mars.nasa.gov/news/8982/meet-the-open-source-software-powering-nasas-ingenuity-mars-helicopter/">NASA Mars Rovers</a> might
                 not have been possible without the open source communities and the powerful technologies they have created.
               </p>
               <p>
-                Yet in recent years this has become a vulnerability that has been exploited to inject malicious malware or virus that infected vast numbers
+                Yet in recent years this has become a vulnerability that has been exploited to inject malicious malware or viruses that infect vast numbers
                 of companies and services. In rare cases it has been highly regarded packages that have been compromised by their authors. What halts developers
                 around the world is the <b>downtime and outages of the central repositories</b> that cripples continuous integration and delivery pipelines.
-              </p>  
+              </p>
               <p>
-                Pyrsia helps developers empower their app development. We simplify and accelerate development workflows with an integrated dev pipeline
-                and through the distribution of packages. Pyrsia provides unmatched simplicity, agility and choice.
+                Pyrsia provides unmatched simplicity, agility and choice by empowering develoeprs app development. We can simplify and accelerate development
+                workflows with our integrated dev pipeline which enables secure distribution of packages.
               </p>
               <a href="Learn more about the OpenSSF"></a>
             </div>
